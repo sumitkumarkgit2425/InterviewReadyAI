@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "965561974071",
+    "project_id": "interviewready-ai-2693c",
+    "storage_bucket": "interviewready-ai-2693c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965561974071:android:d5794ab93065a837016eb2",
+        "android_client_info": {
+          "package_name": "com.example.interviewreadyai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965561974071-1mq8mnogb0963vid9lg9v9467urrlgmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.interviewreadyai",
+            "certificate_hash": "fd498277f5a9a2e04f980d915ae2312ec7cba2e1"
+          }
+        },
+        {
+          "client_id": "965561974071-luphqsam6h4gln2scqki4v65ohpq6hk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2abdOG3DG09YTqdFBSdhBY9yOtnW__kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965561974071-luphqsam6h4gln2scqki4v65ohpq6hk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
