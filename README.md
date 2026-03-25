@@ -4,6 +4,12 @@
 
 ---
 
+## 📺 Live Demonstration & System Walkthrough
+
+https://github.com/user-attachments/assets/400cabd7-ab8c-4b2f-b74f-572f5dc4aafe
+
+---
+
 ## 💎 Core Technical Pillars
 
 ### 1. Adaptive Contextual Intelligence (ACI)
