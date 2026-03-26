@@ -17,14 +17,12 @@ val geminiApiKey = localProperties.getProperty("GEMINI_API_KEY") ?: ""
 
 android {
     namespace = "com.example.interviewreadyai"
-    compileSdk {
-        version = release(36)
-    }
-
+    compileSdk = 35
+    
     defaultConfig {
         applicationId = "com.example.interviewreadyai"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
