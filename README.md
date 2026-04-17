@@ -41,6 +41,7 @@ The application is built on a foundation of modern Android development best prac
 
 - **Jetpack Compose**: Declarative UI for a fluid, responsive user experience.
 - **Gemini Generative AI**: Advanced prompt engineering and iterative streaming.
+- **Docker & GitHub Actions**: Containerized backend API and automated CI/CD deployment pipelines.
 - **Room Persistence**: Local session management and historical performance tracking.
 - **ML Kit & PDFBox**: intelligent extraction of candidate data from diverse resume formats.
 - **Retrofit & GSON**: Efficient network communication and structured data serialization.
@@ -51,6 +52,19 @@ The application is built on a foundation of modern Android development best prac
 - **Wait-Time Optimization**: Theoretical first-sentence delivery reduced from **15s** to **<2s**.
 - **Context Accuracy**: 100% adherence to candidate-specific project history.
 - **Build Reliability**: Automated verification of 100% of pull requests via CI/CD.
+
+---
+
+## 🐳 Local Development & DevOps
+
+The project's AI matching backend is fully containerized using **Docker** to ensure perfect environment parity between developer machines and production servers. 
+
+To spin up the NLP backend locally with zero dependency conflicts:
+```bash
+# Start the AI Matching server on port 5000
+docker compose up --build
+```
+*Note: This standardizes complex Spacy model installations and avoids 'it-works-on-my-machine' Python environment issues.*
 
 ---
 
