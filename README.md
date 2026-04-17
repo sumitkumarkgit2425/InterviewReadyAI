@@ -6,7 +6,7 @@
 
 ## 📺 Live Demonstration & System Walkthrough
 
-https://github.com/user-attachments/assets/400cabd7-ab8c-4b2f-b74f-572f5dc4aafe
+https://github.com/user-attachments/assets/fda1d599-a624-47f3-891e-b90fb497a33e
 
 ---
 
