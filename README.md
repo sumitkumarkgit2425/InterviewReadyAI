@@ -32,7 +32,7 @@ The application is built on a foundation of modern Android development best prac
 
 - **Reactive State Management**: Implementation of MVI/MVVM patterns using `MutableStateFlow` to ensure a consistent, predictable UI state across complex streaming cycles.
 - **Asynchronous Event Sourcing**: Deep integration with **Kotlin Coroutines and Flow** for non-blocking, iterative data processing and UI synchronization.
-- **Robust DevOps Pipeline**: A custom **GitHub Actions CI/CD** workflow automates build validation, static analysis (Linting), and unit testing on every iteration.
+- **Robust DevOps Pipeline**: Dual **GitHub Actions CI/CD** workflows automatically execute Android APK generation, Python backend unit-testing, and Docker container verification on every commit.
 - **Intelligent Resource Management**: Quota-aware API handling to ensure peak stability and performance within free-tier resource constraints.
 
 ---
@@ -51,13 +51,15 @@ The application is built on a foundation of modern Android development best prac
 ## 📊 Impact & Performance
 - **Wait-Time Optimization**: Theoretical first-sentence delivery reduced from **15s** to **<2s**.
 - **Context Accuracy**: 100% adherence to candidate-specific project history.
-- **Build Reliability**: Automated verification of 100% of pull requests via CI/CD.
+- **Build Reliability**: Dual-pipeline CI/CD architecture verifies 100% of pull requests for both mobile logic and backend microservices.
 
 ---
 
-## 🐳 Local Development & DevOps
+## 🐳 DevOps, CI/CD & Local Development
 
-The project's AI matching backend is fully containerized using **Docker** to ensure perfect environment parity between developer machines and production servers. 
+The project adopts full-stack modern DevOps practices:
+- **Continuous Integration**: GitHub Actions workflows monitor the `main` branch to automatically compile Android artifacts and run containerized tests.
+- **Microservice Containerization**: The AI matching backend is fully containerized using **Docker** to ensure perfect environment parity between developer machines and CI/CD runners. 
 
 To spin up the NLP backend locally with zero dependency conflicts:
 ```bash
