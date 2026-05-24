@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/fda1d599-a624-47f3-891e-b90fb497a33e
 Unlike static interview simulators, InterviewReadyAI leverages **Gemini 3.1 Flash Lite** to generate iterative, context-aware questions. The AI engine analyzes the candidate's resume, job description, and the unfolding conversation history to probe deeper into technical competencies and soft skills using the STAR method.
 
 ### 2. Synchronized Audio-Visual Streaming (SAVS)
-To minimize cognitive friction, the system implements a proprietary **Buffered Text-to-Speech (TTS)** pipeline. By utilizing Kotlin `SharedFlow` and punctuation-aware chunking, the application begins vocalizing AI responses within milliseconds of generation, achieving an **85% reduction in initial latency** compared to standard blocking models.
+To minimize cognitive friction, the system implements a proprietary **Buffered Text-to-Speech (TTS)** pipeline. By utilizing Kotlin `SharedFlow` and punctuation-aware chunking, the application begins vocalizing AI responses within milliseconds of generation, achieving an **60% reduction in initial latency** compared to standard blocking models.
 
 ### 3. Automated Performance Diagnostics (APD)
 Post-interview, the suite executes a multi-dimensional analysis using a structured JSON evaluation engine. It provides:
